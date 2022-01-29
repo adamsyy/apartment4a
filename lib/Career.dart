@@ -183,7 +183,7 @@ class Career extends StatelessWidget {
               'CAREER',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 28,
+                fontSize: 24,
                 color: const Color(0xff2c2424),
                 fontWeight: FontWeight.w700,
               ),
@@ -197,7 +197,7 @@ class Career extends StatelessWidget {
               'Design',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
               ),
               textAlign: TextAlign.left,
@@ -210,7 +210,7 @@ class Career extends StatelessWidget {
               'Coding',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
               ),
               textAlign: TextAlign.left,
@@ -223,7 +223,7 @@ class Career extends StatelessWidget {
               'EB Core',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
               ),
               textAlign: TextAlign.left,
@@ -236,7 +236,7 @@ class Career extends StatelessWidget {
               'EEE Core',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
               ),
               textAlign: TextAlign.left,
@@ -249,7 +249,7 @@ class Career extends StatelessWidget {
               'Manager',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
               ),
               textAlign: TextAlign.left,
@@ -275,7 +275,7 @@ class Career extends StatelessWidget {
               'Law',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
               ),
               textAlign: TextAlign.left,

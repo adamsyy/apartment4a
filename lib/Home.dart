@@ -125,7 +125,7 @@ class Home extends StatelessWidget {
               'CAREER',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 24,
+                fontSize: 20,
                 color: const Color(0xff2c2424),
                 fontWeight: FontWeight.w700,
               ),
