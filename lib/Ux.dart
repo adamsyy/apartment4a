@@ -228,7 +228,7 @@ class Ux extends StatelessWidget {
               final url='https://pattern-filament-145.notion.site/UI-UX-Designing-c748514da51b4160807f9b328de03195';
               if(await canLaunch(url)){
                 await launch(
-                    url,forceWebView: true,enableJavaScript: true
+                    url
                 );
               }
 
