@@ -3,6 +3,8 @@ import 'package:untitled/Home.dart';
 import 'package:untitled/Splash.dart';
 import 'package:untitled/Welcome.dart';
 
+import 'Splash2.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Welcome()
+      home: Splash2()
     );
   }
 }
