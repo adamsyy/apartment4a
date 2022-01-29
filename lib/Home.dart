@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import 'package:page_transition/page_transition.dart';
 import './Ktu.dart';
 import 'package:adobe_xd/page_link.dart';
 import './Career.dart';
@@ -107,29 +108,37 @@ class Home extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 49.0, middle: 0.5014),
             Pin(size: 33.0, middle: 0.6523),
-            child: Text(
-              'KTU',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 24,
-                color: const Color(0xff2c2424),
-                fontWeight: FontWeight.w700,
+            child: GestureDetector(onTap: (){
+              Navigator.push(context, PageTransition(type: PageTransitionType.scale, alignment: Alignment.bottomCenter, child: Ktu()));
+            },
+              child: Text(
+                'KTU',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 24,
+                  color: const Color(0xff2c2424),
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
           Pinned.fromPins(
             Pin(size: 93.0, middle: 0.5016),
             Pin(size: 33.0, middle: 0.7893),
-            child: Text(
-              'CAREER',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 20,
-                color: const Color(0xff2c2424),
-                fontWeight: FontWeight.w700,
+            child: GestureDetector(onTap: (){
+              Navigator.push(context, PageTransition(type: PageTransitionType.scale, alignment: Alignment.bottomCenter, child: Career()));
+            },
+              child: Text(
+                'CAREER',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 20,
+                  color: const Color(0xff2c2424),
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
         ],
