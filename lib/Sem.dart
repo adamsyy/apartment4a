@@ -206,7 +206,7 @@ class Sem extends StatelessWidget {
               final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
               if(await canLaunch(url)){
                 await launch(
-                  url,forceWebView: true,enableJavaScript: true
+                  url
                 );
               }
 
@@ -230,7 +230,7 @@ class Sem extends StatelessWidget {
               final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
               if(await canLaunch(url)){
                 await launch(
-                    url,forceWebView: true,enableJavaScript: true
+                    url
                 );
               }
 
