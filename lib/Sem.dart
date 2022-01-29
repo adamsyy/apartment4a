@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Sem extends StatelessWidget {
 
@@ -200,30 +201,52 @@ class Sem extends StatelessWidget {
               textAlign: TextAlign.left,
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 27.0, middle: 0.2494),
-            Pin(size: 33.0, middle: 0.2268),
-            child: Text(
-              'S1',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 24,
-                color: const Color(0xff595454),
+          GestureDetector(
+            onTap: ()async{
+              final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
+              if(await canLaunch(url)){
+                await launch(
+                  url,forceWebView: true,enableJavaScript: true
+                );
+              }
+
+            },
+            child: Pinned.fromPins(
+              Pin(size: 27.0, middle: 0.2494),
+              Pin(size: 33.0, middle: 0.2268),
+              child: Text(
+                'S1',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 24,
+                  color: const Color(0xff595454),
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 31.0, middle: 0.7402),
-            Pin(size: 33.0, middle: 0.2268),
-            child: Text(
-              'S2',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 24,
-                color: const Color(0xff595454),
+          GestureDetector(
+            onTap: ()async{
+              final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
+              if(await canLaunch(url)){
+                await launch(
+                    url,forceWebView: true,enableJavaScript: true
+                );
+              }
+
+            },
+            child: Pinned.fromPins(
+              Pin(size: 31.0, middle: 0.7402),
+              Pin(size: 33.0, middle: 0.2268),
+              child: Text(
+                'S2',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 24,
+                  color: const Color(0xff595454),
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
           Pinned.fromPins(

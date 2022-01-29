@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Ux extends StatelessWidget {
 
@@ -222,17 +223,28 @@ class Ux extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 145.0, middle: 0.5019),
-            Pin(size: 33.0, end: 47.0),
-            child: Text(
-              'RESOURCES',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 24,
-                color: const Color(0xff2c2424),
+          GestureDetector(
+            onTap: ()async{
+              final url='https://pattern-filament-145.notion.site/UI-UX-Designing-c748514da51b4160807f9b328de03195';
+              if(await canLaunch(url)){
+                await launch(
+                    url,forceWebView: true,enableJavaScript: true
+                );
+              }
+
+            },
+            child: Pinned.fromPins(
+              Pin(size: 145.0, middle: 0.5019),
+              Pin(size: 33.0, end: 47.0),
+              child: Text(
+                'RESOURCES',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 24,
+                  color: const Color(0xff2c2424),
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
           Pinned.fromPins(

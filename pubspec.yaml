@@ -37,6 +37,7 @@ dependencies:
   flutter_launcher_icons: ^0.9.2
   adobe_xd: ^2.0.1
   page_transition: ^2.0.5
+  url_launcher: ^6.0.18
 
 dev_dependencies:
   flutter_test:
