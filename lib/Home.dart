@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
                 Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage("images/apartment.png"),
                   fit: BoxFit.fill,
                 ),
               ),
