@@ -1,16 +1,7 @@
-# untitled
+# APARTMENT 4A
 
-A new Flutter project.
 
-## Getting Started
+## A brief overview
+Introducing an app which will be a one stop solution to all the problems Students are facing these days. Starting from notes, resources, books, yt channels for all the ktu subjects from Apartment4A. Students will also be able to get roadmaps, resources, study guides and mentoring for different technical as well as non technical career paths, in short you won't be needing another app for any of your career needs as a student. There will also be a common discussion platform for students.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
