@@ -8,7 +8,7 @@ An app which will be a one stop solution to all the problems Students are facing
 2. [Hisham Mohammad Hashir](https://www.linkedin.com/in/hisham-hashir-3760481b/)
 3. [Mohammad Salman Ali pary](https://github.com/salmanpary)
 4. [Liza V Cherian](https://github.com/LisaVCherian/Apartment_4A)
-5. 
+
 ## App Screenshots
 ![image1](https://cdn1.bbcode0.com/uploads/2022/1/30/6d7ea193b9f1e612734d2b85850411ab-full.png)
 ![image2](https://cdn1.bbcode0.com/uploads/2022/1/30/4929fb16301e22af7c6b6e31ffdd9107-full.png)
