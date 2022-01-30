@@ -3,6 +3,8 @@ import 'package:untitled/Home.dart';
 import 'package:untitled/Splash.dart';
 import 'package:untitled/Welcome.dart';
 
+import 'Page2.dart';
+
 void main() {
   runApp(const MyApp());
 }

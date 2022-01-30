@@ -28,7 +28,7 @@ class Ui extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 118.0, start: 39.0),
-            Pin(size: 39.0, end: 86.0),
+            Pin(size: 39.0, end: 386.0),
             child: Text(
               'Skill Set',
               style: TextStyle(
@@ -60,7 +60,7 @@ class Ui extends StatelessWidget {
                   ),
                   TextSpan(
                     text:
-                        'UX design is focused on anything that affects the user\'s journey to solve that problem, positive or negative, both on-screen and off. UI design is focused on how the product\'s surfaces look and function.',
+                        'UX design is focused on anything that affects the user\'s journey to solve that problem, positive or negative, both on-screen and off. UI design is focused on how the product\'s surfaces',
                     style: TextStyle(
                       fontSize: 20,
                       color: const Color(0xff5f5e5e),
@@ -75,7 +75,7 @@ class Ui extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 39.0, end: 45.0),
-            Pin(size: 83.0, end: -8.0),
+            Pin(size: 83.0, end: 298.0),
             child: Text(
               'Designing, prototyping, wireframing, user flows, mockups',
               style: TextStyle(
@@ -89,59 +89,9 @@ class Ui extends StatelessWidget {
               textAlign: TextAlign.left,
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 7.5, end: 14.5),
-            Pin(size: 11.6, end: 14.6),
-            child: PageLink(
-              links: [
-                PageLinkInfo(
-                  ease: Curves.easeOut,
-                  duration: 0.3,
-                  pageBuilder: () => Ux(),
-                ),
-              ],
-              child: Stack(
-                children: <Widget>[
-                  Pinned.fromPins(
-                    Pin(start: 0.0, end: 0.0),
-                    Pin(size: 5.8, start: 0.0),
-                    child: SvgPicture.string(
-                      _svg_ty4g5,
-                      allowDrawingOutsideViewBox: true,
-                      fit: BoxFit.fill,
-                    ),
-                  ),
-                  Pinned.fromPins(
-                    Pin(start: 0.0, end: 0.0),
-                    Pin(size: 5.8, end: 0.0),
-                    child: SvgPicture.string(
-                      _svg_yk3o39,
-                      allowDrawingOutsideViewBox: true,
-                      fit: BoxFit.fill,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 156.0, middle: 0.502),
-            Pin(size: 1.0, start: 100.5),
-            child: SvgPicture.string(
-              _svg_gz0hmr,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 90.0, start: 39.0),
-            Pin(size: 1.0, end: 84.0),
-            child: SvgPicture.string(
-              _svg_h6v5,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
-            ),
-          ),
+
+
+
         ],
       ),
     );

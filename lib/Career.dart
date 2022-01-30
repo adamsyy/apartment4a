@@ -193,14 +193,21 @@ class Career extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 74.0, middle: 0.2249),
             Pin(size: 33.0, middle: 0.2268),
-            child: Text(
-              'Design',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 20,
-                color: const Color(0xff2c2424),
+            child: GestureDetector(onTap: (){
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) =>  Design()),
+              );
+            },
+              child: Text(
+                'Design',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 20,
+                  color: const Color(0xff2c2424),
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
           Pinned.fromPins(

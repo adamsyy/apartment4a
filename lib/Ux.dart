@@ -7,7 +7,7 @@ class Ux extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(appBar: AppBar(backgroundColor: Colors.transparent,),
       backgroundColor: const Color(0xffffffff),
       body: Stack(
         children: <Widget>[
@@ -29,7 +29,7 @@ class Ux extends StatelessWidget {
               'Roadmap',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 28,
+                fontSize: 19,
                 color: const Color(0xff2c2424),
                 fontWeight: FontWeight.w700,
               ),
@@ -43,7 +43,7 @@ class Ux extends StatelessWidget {
               'Scope',
               style: TextStyle(
                 fontFamily: 'Comic Sans MS',
-                fontSize: 28,
+                fontSize: 24,
                 color: const Color(0xff2c2424),
                 fontWeight: FontWeight.w700,
               ),
@@ -68,7 +68,7 @@ class Ux extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 42.0, end: 42.0),
-            Pin(size: 344.0, middle: 0.6705),
+            Pin(size: 344.0, middle: 0.6505),
             child: Container(
               decoration: BoxDecoration(
                 color: const Color(0x7ac4c4c4),
@@ -79,7 +79,7 @@ class Ux extends StatelessWidget {
             Pin(start: 61.0, end: 52.0),
             Pin(size: 300.0, middle: 0.6464),
             child: Text(
-              'The scope of this job is on creating the user interface based on user research insights. To achieve this, designers use processes such as wireframing and prototyping, followed by usability testing. The UI/UX design title is the most comprehensive. ',
+              'The scope of this job is on creating the user interface based on user research insights. To achieve this, designers use processes such as wireframing and prototyping, followed by usability testing. The UI/UX design title is exciting!. ',
               style: TextStyle(
                 fontFamily: 'Segoe UI',
                 fontSize: 20,
@@ -91,127 +91,8 @@ class Ux extends StatelessWidget {
               textAlign: TextAlign.left,
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.5177),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.3359),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.2146),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.5783),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.3965),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.7601),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.2753),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.6389),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.6995),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.4571),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 16.0, middle: 0.8207),
-            Pin(size: 16.0, middle: 0.7927),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
-                color: const Color(0xffffffff),
-              ),
-            ),
-          ),
+
+
           Pinned.fromPins(
             Pin(start: 47.0, end: 47.0),
             Pin(size: 74.0, end: 26.0),
@@ -228,7 +109,7 @@ class Ux extends StatelessWidget {
               final url='https://pattern-filament-145.notion.site/UI-UX-Designing-c748514da51b4160807f9b328de03195';
               if(await canLaunch(url)){
                 await launch(
-                    url,forceWebView: true,enableJavaScript: true
+                    url
                 );
               }
 

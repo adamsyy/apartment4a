@@ -4,6 +4,8 @@ import './Ui.dart';
 import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'Ux.dart';
+
 class Design extends StatelessWidget {
 
   @override
@@ -64,7 +66,7 @@ class Design extends StatelessWidget {
                 PageLinkInfo(
                   ease: Curves.easeOut,
                   duration: 0.3,
-                  pageBuilder: () => Ui(),
+                  pageBuilder: () => Ux(),
                 ),
               ],
               child: Container(
@@ -127,14 +129,22 @@ class Design extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 186.0, middle: 0.5),
             Pin(size: 33.0, middle: 0.2268),
-            child: Text(
-              'UI UX Designing',
-              style: TextStyle(
-                fontFamily: 'Comic Sans MS',
-                fontSize: 24,
-                color: const Color(0xff2c2424),
+            child: GestureDetector(onTap: (){
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) =>  Ux()),
+              );
+
+            },
+              child: Text(
+                'UI UX Designing',
+                style: TextStyle(
+                  fontFamily: 'Comic Sans MS',
+                  fontSize: 24,
+                  color: const Color(0xff2c2424),
+                ),
+                textAlign: TextAlign.left,
               ),
-              textAlign: TextAlign.left,
             ),
           ),
           Pinned.fromPins(

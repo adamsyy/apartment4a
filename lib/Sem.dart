@@ -206,7 +206,7 @@ class Sem extends StatelessWidget {
               final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
               if(await canLaunch(url)){
                 await launch(
-                  url,forceWebView: true,enableJavaScript: true
+                  url
                 );
               }
 
@@ -214,14 +214,24 @@ class Sem extends StatelessWidget {
             child: Pinned.fromPins(
               Pin(size: 27.0, middle: 0.2494),
               Pin(size: 33.0, middle: 0.2268),
-              child: Text(
-                'S1',
-                style: TextStyle(
-                  fontFamily: 'Comic Sans MS',
-                  fontSize: 24,
-                  color: const Color(0xff595454),
+              child: GestureDetector(  onTap: ()async{
+                final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
+                if(await canLaunch(url)){
+                  await launch(
+                    url,
+                  );
+                }
+
+              },
+                child: Text(
+                  'S1',
+                  style: TextStyle(
+                    fontFamily: 'Comic Sans MS',
+                    fontSize: 24,
+                    color: const Color(0xff595454),
+                  ),
+                  textAlign: TextAlign.left,
                 ),
-                textAlign: TextAlign.left,
               ),
             ),
           ),
@@ -230,7 +240,7 @@ class Sem extends StatelessWidget {
               final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
               if(await canLaunch(url)){
                 await launch(
-                    url,forceWebView: true,enableJavaScript: true
+                    url,
                 );
               }
 
@@ -238,14 +248,25 @@ class Sem extends StatelessWidget {
             child: Pinned.fromPins(
               Pin(size: 31.0, middle: 0.7402),
               Pin(size: 33.0, middle: 0.2268),
-              child: Text(
-                'S2',
-                style: TextStyle(
-                  fontFamily: 'Comic Sans MS',
-                  fontSize: 24,
-                  color: const Color(0xff595454),
+              child: GestureDetector(
+                onTap: ()async{
+                  final url='https://pattern-filament-145.notion.site/SEM-1-2-fd5e7fdcde854b55bc656c9e408e541c';
+                  if(await canLaunch(url)){
+                    await launch(
+                      url,
+                    );
+                  }
+
+                },
+                child: Text(
+                  'S2',
+                  style: TextStyle(
+                    fontFamily: 'Comic Sans MS',
+                    fontSize: 24,
+                    color: const Color(0xff595454),
+                  ),
+                  textAlign: TextAlign.left,
                 ),
-                textAlign: TextAlign.left,
               ),
             ),
           ),
