@@ -6,14 +6,10 @@ Introducing an app which will be a one stop solution to all the problems Student
 
 ## TEAM 404
 1. [Adam Oommen Jacob](https://github.com/weberstills)
-2. Hisham Mohammad Hashir[https://www.linkedin.com/in/hisham-hashir-3760481b/]
-3. Mohammad Salman Ali pary(Mr Pewer) [https://github.com/salmanpary]
-4. Liza V Cherian [https://github.com/LisaVCherian/Apartment_4A]
-
-## Tech stacks used
-1. Flutter
-2. Adobe xd
-
+2. [Hisham Mohammad Hashir](https://www.linkedin.com/in/hisham-hashir-3760481b/)
+3. [Mohammad Salman Ali pary](https://github.com/salmanpary)
+4. [Liza V Cherian](https://github.com/LisaVCherian/Apartment_4A)
+5. 
 ## App Screenshots
 ![image1](https://cdn1.bbcode0.com/uploads/2022/1/30/6d7ea193b9f1e612734d2b85850411ab-full.png)
 ![image2](https://cdn1.bbcode0.com/uploads/2022/1/30/4929fb16301e22af7c6b6e31ffdd9107-full.png)
@@ -21,5 +17,9 @@ Introducing an app which will be a one stop solution to all the problems Student
 ![image4](https://cdn1.bbcode0.com/uploads/2022/1/30/97830c5cf15f1234bb6267848640d3a5-full.png)
 ![image5](https://cdn1.bbcode0.com/uploads/2022/1/30/5e80451b248e345be80920ddeb99e2fd-full.png)
 ![image6](https://cdn1.bbcode0.com/uploads/2022/1/30/04041c29de64349c21faedf30f319285-full.png)
+
+## Tech stacks used
+1. Flutter
+2. Adobe xd
 
 
