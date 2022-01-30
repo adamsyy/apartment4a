@@ -19,6 +19,6 @@ An app which will be a one stop solution to all the problems Students are facing
 
 ## Tech stacks used
 1. Flutter
-2. Adobe xd
+2. Figma
 
 
