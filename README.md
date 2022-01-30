@@ -7,7 +7,7 @@ An app which will be a one stop solution to all the problems Students are facing
 1. [Adam Oommen Jacob](https://github.com/weberstills)
 2. [Hisham Mohammad Hashir](https://www.linkedin.com/in/hisham-hashir-3760481b/)
 3. [Mohammad Salman Ali pary](https://github.com/salmanpary)
-4. [Liza V Cherian](https://github.com/LisaVCherian/Apartment_4A)
+4. [Liza V Cherian](https://github.com/LisaVCherian) 
 
 ## App Screenshots
 ![image1](https://cdn1.bbcode0.com/uploads/2022/1/30/6d7ea193b9f1e612734d2b85850411ab-full.png)
